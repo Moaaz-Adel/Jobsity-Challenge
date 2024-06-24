@@ -10,8 +10,7 @@
       "node",
       "TestConfigOverrides",
       "cypress-file-upload",
-      "browserPermissions",
-      "@shelex/cypress-allure-plugin"
+      "browserPermissions"
     ],
     "allowJs": true
   },

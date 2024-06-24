@@ -69,7 +69,7 @@ describe("Orders and Returns Validations", () => {
   });
 
   context("Billing Last Name Field Validations", () => {
-    it("should shows validation text when leaving last name field Empty", () => {
+    it.only("should shows validation text when leaving last name field Empty", () => {
       ordersAndReturnsPage.submitOrderForm(
         "123456789",
         undefined,

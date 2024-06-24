@@ -1,6 +1,5 @@
 import { defineConfig } from "cypress";
 import allureWriter from "@shelex/cypress-allure-plugin/writer";
-
 export default defineConfig({
   chromeWebSecurity: false,
   viewportHeight: 1200,
