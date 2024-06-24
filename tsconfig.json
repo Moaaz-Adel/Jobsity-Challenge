@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "noEmit": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "types": [
+      "cypress",
+      "node",
+      "TestConfigOverrides",
+      "cypress-file-upload",
+      "browserPermissions",
+      "@shelex/cypress-allure-plugin"
+    ],
+    "allowJs": true
+  },
+  "include": [
+    "**/*.ts",
+    "cypress/support/index.js",
+    "cypress.config.js",
+    "../node_modules/@shelex/cypress-allure-plugin/reporter"
+  ]
+}
