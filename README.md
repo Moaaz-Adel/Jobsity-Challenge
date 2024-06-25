@@ -71,7 +71,7 @@ Jobsity-Challenge/
 └── README.md              # Project documentation
 ```
 
-▶️ Running the Tests
+## ▶️ Running the Tests
 
 To run the tests Locally type the following commands:
 
@@ -85,7 +85,9 @@ To run the tests Locally type the following commands:
 4. One Command to run Tests in Headless Mode, Generate report and serve it automatically:
      ```sh
    npm run allure:clear ; npm run cy:test:run ; npm run allure:generate ; npm run allure:serve
-   ``` 
+   ```
+### Test Result:
+![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/06ad2a38-d5a4-4c99-8b22-2e8d4c9b7d90)
 
 > [!NOTE]
 > Test Run Screen Records available on Notion
@@ -125,7 +127,7 @@ On each pull request or push to the main branch, the CI pipeline will be trigger
 ## 🏃‍♂️ Test Results:
 
 ### Allure Report (If allure is installed):
-![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/06ad2a38-d5a4-4c99-8b22-2e8d4c9b7d90)
+
 ![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/673443de-1569-46ed-abe6-877283b68ea0)
 
 
