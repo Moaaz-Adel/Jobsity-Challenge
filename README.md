@@ -121,7 +121,7 @@ GitHub Actions is used to automate the testing process. The configuration file f
 Triggering CI Pipeline
 On each pull request or push to the main branch, the CI pipeline will be triggered automatically.
 
-## Test Results:
+## 🏃‍♂️ Test Results:
 
 ### Allure Report (If allure is installed):
 ![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/06ad2a38-d5a4-4c99-8b22-2e8d4c9b7d90)
