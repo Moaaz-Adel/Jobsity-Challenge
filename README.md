@@ -1,5 +1,8 @@
 # 🛠️Jobsity Challenge: Test Automation with Cypress for Magento E-Commerce 🛒
 
+![download](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/3a27ab75-73c5-4116-8d0e-08e504652d60)
+
+
 Welcome to the Jobsity Challenge! This project involves creating automation scripts for "Orders and Returns" validations on a Magento E-Commerce website. The objective is to ensure the robustness and reliability of the e-commerce platform by leveraging cutting-edge tools and best practices in test automation.
 
 ## 📚 Table of Contents
