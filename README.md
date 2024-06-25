@@ -119,10 +119,15 @@ e2e-electron
 
 ## ⚙️ Continuous Integration
 
-GitHub Actions is used to automate the testing process. The configuration file for GitHub Actions is located in .github/workflows/.
+The configuration file for GitHub Actions is located in .github/workflows/.
 
 Triggering CI Pipeline
 On each pull request or push to the main branch, the CI pipeline will be triggered automatically.
+
+![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/104beefb-deda-4941-9305-ea58c2d41ecc)
+> [!TIP]
+> Test Run Screen Records available on Notion
+
 
 ## 🏃‍♂️ Test Results:
 
