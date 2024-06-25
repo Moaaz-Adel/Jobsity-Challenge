@@ -87,7 +87,7 @@ To run the tests Locally type the following commands:
    npm run allure:clear ; npm run cy:test:run ; npm run allure:generate ; npm run allure:serve
    ``` 
 
-> [!TIP]
+> [!NOTE]
 > Test Run Screen Records available on Notion
     
 ## 🥉 Using Docker-Compose
