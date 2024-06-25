@@ -13,9 +13,6 @@ Welcome to the Jobsity Challenge! This project involves creating automation scri
 - [Running the Tests](#running-the-tests)
 - [Continuous Integration](#continuous-integration)
 - [Reporting](#reporting)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 🚀 #Project Overview
 
 This repository contains the test automation scripts for the "Orders and Returns" functionalities of a Magento E-Commerce site. The scripts are designed using the Page Object Model (POM) design pattern to enhance code reusability and maintainability. 
