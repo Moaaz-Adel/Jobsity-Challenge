@@ -1,0 +1,40 @@
+version: "3.2"
+services:
+  e2e-chrome:
+    # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
+    image: "cypress/included:11.0.1"
+
+    command: "--browser chrome"
+
+    environment:
+      - CYPRESS_baseUrl=https://magento.softwaretestingboard.com/
+
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
+
+  e2e-firefox:
+    # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
+    image: "cypress/included:11.0.1"
+
+    command: "--browser firefox"
+
+    environment:
+      - CYPRESS_baseUrl=https://magento.softwaretestingboard.com/
+
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
+
+  e2e-electron:
+    # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
+    image: "cypress/included:11.0.1"
+
+    command: "--browser firefox"
+
+    environment:
+      - CYPRESS_baseUrl=https://magento.softwaretestingboard.com/
+
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
