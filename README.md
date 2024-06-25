@@ -125,8 +125,11 @@ On each pull request or push to the main branch, the CI pipeline will be trigger
 
 ### Allure Report (If allure is installed):
 ![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/06ad2a38-d5a4-4c99-8b22-2e8d4c9b7d90)
+![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/673443de-1569-46ed-abe6-877283b68ea0)
+
 
 ### Mocha Awesome (Always will be generated):
+![image](https://github.com/Moaaz-Adel/Jobsity-Challenge/assets/66737098/1a1a7a35-097e-45b1-8ce4-2dc06ec1bf52)
 
 
 📊 Reporting
