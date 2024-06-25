@@ -31,7 +31,7 @@ class OrdersAndReturnsPage {
    * Submits an order form with the given parameters.
    *
    * @param {number} [orderId] - The ID of the order.
-   * @param {string} [lastName] - The last name of the person associated with the order.
+   * @param {string} [lastName] - The lastName of the person associated with the order.
    * @param {string} [findOrderBy] - The criteria to find the order by.
    * @param {string} [email] - The email associated with the order.
    */
@@ -53,9 +53,9 @@ class OrdersAndReturnsPage {
     }
     if (input) {
       if (isZipCode) {
-        this.Selectors.txtZipCode().type(input); // Replace with appropriate selector and action for ZIP code input
+        this.Selectors.txtZipCode().type(input);
       } else {
-        this.Selectors.txtEmail().type(input); // Assuming txtEmail() is used for email input
+        this.Selectors.txtEmail().type(input);
       }
     }
     this.Selectors.btnContinue().click();

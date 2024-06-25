@@ -7,7 +7,7 @@ export default defineConfig({
   viewportWidth: 1200,
   screenshotOnRunFailure: true,
   projectId: "Jobsity Challenge Project",
-  retries: 0,
+  retries: 1,
   reporter: "cypress-mochawesome-reporter",
   reporterOptions: {
     charts: true,

@@ -4,9 +4,11 @@
   "description": "Jobsity's QA Interview Challenge  ",
   "main": "index.js",
   "scripts": {
-    "cy:test:report": "npm run allure:clear ; npx cypress run --env allure=true; allure generate; allure serve",
-    "cy:test": "npx cypress run",
-    "allure:clear": "rm -rf allure-results && rm -rf allure-report && rm -rf cypress/screenshots && rm -rf cypress/videos"
+    "allure:clear": "rm -rf allure-results ; rm -rf allure-report ; rm -rf cypress/screenshots ; rm -rf cypress/videos",
+    "cy:test:run": "npx cypress run --env allure=true",
+    "allure:generate": "allure generate",
+    "allure:serve": "allure serve",
+    "cy:test:report": "npm run allure:clear && npm run cy:test:run ; npm run allure:generate ; npm run allure:serve"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
